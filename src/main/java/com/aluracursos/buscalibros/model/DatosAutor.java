@@ -1,0 +1,15 @@
+package com.aluracursos.buscalibros.model;
+
+import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public record DatosAutor(
+        @JsonAlias("name")
+        String nombre,
+        @JsonAlias("birth_year")
+        int añoNacimiento,
+        @JsonAlias("death_year")
+        int añoFallecimiento
+) {
+}
