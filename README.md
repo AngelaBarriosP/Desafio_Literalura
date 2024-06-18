@@ -30,6 +30,6 @@ Las siguientes son las caracteristicas técnicas más importantes de la aplicaci
 Podrás observar como funciona en el siguiente video: https://youtu.be/ZLpUMVTKFl4
 
 <h2>Tecnologías utilizadas:</h2>
-Java, Spring Boot, JPA, PostgreSQL
+Java, Spring Boot, JPA, PostgreSQL, Maven
 
 Hecho por: Luz Angela Barrios Pulido
